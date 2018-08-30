@@ -1,0 +1,30 @@
+.wrapper {
+    margin: 100px;
+}
+
+
+.content {
+   max-width: 500px;
+   margin: auto; 
+}
+
+.face {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: solid 2px black;
+    background-color: yellow;
+    border-radius: 50px;
+}
+
+.lefteye {
+    width: 6px;
+    height: 6px;
+    border: solid 2px black;
+    border-radius: 3px;
+    z-index: 1;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    background-color: black;
+}
