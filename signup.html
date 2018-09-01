@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Sign Up Form</title>
+    <title>Sign Up</title>
     <link href="index.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div id="box">
+    <div id="wrapper">
       <div class="form">
-      <form>
+      <form name="myForm">
         <h1>Sign Up</h1>
-        <h3>Username:</h3>
-          <input type="text" name="username" required>
-        <h3>Password:</h3>
-          <input type="text" name="password" required>
-        <h3>Confirm Password:</h3>
-          <input type="text" name="psw-repeat" required>
+        <p>Username:</p>
+        <input id="username" type="text" name="user"  required>
+        <p>Password:</p>
+        <input id="password" type="text" name="pass1" required>
+        <p>Confirm Password:</p>
+        <input id="psw-repeat" type="text" name="pass2" required>
+        <button id="button" onclick='validate' name="button" type="Submit">Submit</button>
         <br>
-        <button>Submit</button>
+        <br>
       </form>
       </div>
     </div>
