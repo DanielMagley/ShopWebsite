@@ -63,7 +63,7 @@ p {
 }
 
 .nav a:hover {
-    background-color: rgba(192, 163, 125, 0.767);
+    background-color:  teal;
     color: white;
 }
 
@@ -125,15 +125,15 @@ p {
 }
 
 h1 {
-    color: rgb(126, 210, 243);
+    color: black;
     /* background-color: #C5CFDC; */
-    background-color: rgba(246, 204, 250, 0.845);
+    /* background-color: rgba(246, 204, 250, 0.845); */
     opacity: 1.0;
     filter: alpha(opacity=30);
     font-style: unset;
     float: left;
     position: absolute;
-    top: 515px;
+    top: 250px;
     left: 40px;
     font-size: 80px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;    
